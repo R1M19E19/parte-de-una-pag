@@ -1,0 +1,36 @@
+#Como agregar tus archivos a git y subirlos a tu repositorio#
+git init
+git add --all
+git commit -m "Un mensaje que describa tus cambios"
+        #(Creas tu repositorio en github)#                                                    
+git remote add origin aqui_va_el_link_de_tu_repositorio
+git push origin master
+
+
+
+#Como crear branches
+git init 
+git add --all 
+git commit -m "Un mensaje que describa tus cambios"            ###IMPORTANTÍSIMO dar add y commit antes de crear un branch, de lo contrario no se creará un master####
+git checkout -b aqui_le_pones_un_nombre_a_tu_branch           
+git checkout master
+git merge nombre_de_tu_branch
+
+#Eliminar branch
+git branch -d nombre_del_branch
+
+#revisar commits
+git log
+ (presionar q para salir del log)
+
+ #regresar a un commit anterior
+ git checkout nombre_commit
+    #(si quieres agregar cambios con esa version del commit, crea un nuevo branch, trabajas y das merge)
+ 
+#Clonar repositorio
+git clone ruta_del_repositorio
+q para salir
+
+
+
+#Referencia: https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging

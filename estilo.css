@@ -1,0 +1,17 @@
+.area_grande{
+    height:800px;
+}
+#principal .row{
+    height: 200px;
+    margin: 20px;
+    text-align: center;
+}
+#principal img{
+    height: 100%;
+}
+#principal .col-md-6{
+    height: 100%;
+}
+#segunda_seccion{
+    text-align: center;
+}
